@@ -6,15 +6,16 @@
 	font-size: 20px;
 	margin-bottom: 0;
 }
-.header {
+h2{
 	height: auto;
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 60px;
 	text-align: center;
 	font-family: 'Georgia', serif;
 	background-color: #D5C6E0;
 	color: #967AA1;
-	border: 2px solid black;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 #button {
 	text-align: center;
@@ -26,28 +27,45 @@
 	width: 20%;
 	margin-left: 42%;
 }
-.list {
-	font-family: "Belleza", sans-serif;
-}
 p {
 	font-family: "Belleza", sans-serif;
 	font-size: 20px;
-	margin-left: 3%;
+	margin-left: 4%;
+	margin-right: 2%;
 }
 h4 {
-	font-style: italic;
-	font-size: 40px;
+	height: auto;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Georgia', serif;
+	background-color: #967AA1;
+	color: #D5C6E0;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 h3 {
 	font-size: 30px;
 	font-family: "Nunito Sans", sans-serif;
 }
-img {
+.img {
 	float: right;
 	margin-right: 2%;
 	margin-left: 1%;
+	height: auto;
 }
-/*Don't worry about this section yet*/
+.img2 {
+	float: right;
+	margin-right: 2%;
+	margin-left: 1%;
+	height: auto;
+	font-size: 10px;
+}
+.mid {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
 @media only screen and (max-width: 767px)
 {
  .list {
@@ -69,8 +87,11 @@ img {
  h4 {
  	font-size: 15px;
  }
- img {
+ .img {
  	float: none;
  	margin-left: 5%;
+ 	height: auto;
+ 	width: 600px;
+ 	margin-bottom: 50px;
  }
 }
